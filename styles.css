@@ -62,6 +62,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 2em;
+  display: none;
 }
 .container header .display li a {
   color: #efc2b3;
