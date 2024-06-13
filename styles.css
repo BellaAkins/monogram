@@ -168,7 +168,7 @@ body {
   position: absolute;
   z-index: 1;
   right: 0;
-  right: 10em;
+  right: 20em;
   width: 22%;
 }
 .container section.console .console-container .text h3 {
