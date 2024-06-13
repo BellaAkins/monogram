@@ -19,20 +19,15 @@ body {
   font-family: prompt, sans-serif;
 }
 
-.container {
-  padding: 0.6em;
-}
-
 .hero-img {
   width: 100%;
-  height: 90vh;
+  height: 60vh;
   background: url(images/keyboard2.jpg);
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  animation: Bellaintroload 3s forwards;
 }
 
 .container header {
@@ -40,8 +35,8 @@ body {
   justify-content: space-between;
   font-family: prompt, sans-serif;
   background: #1a2456;
-  padding: 0.8em;
-  
+  padding: 0.7em;
+  margin: 7px 8px;
   position: relative;
 }
 .container header svg {
@@ -55,14 +50,13 @@ body {
   font-size: 1.3rem;
 }
 .container header .logo svg {
-  width: 10em;
+  width: 11em;
 }
 .container header .display {
   padding: 0;
   display: flex;
   justify-content: space-between;
   gap: 2em;
-  display: none;
 }
 .container header .display li a {
   color: #efc2b3;
@@ -86,11 +80,11 @@ body {
   display: none;
   position: absolute;
   background: #1a2456;
-  width: 60%;
+  width: 50%;
   top: 0;
-  left: 0;
+  left: -8px;
   height: 100vh;
-  transition: transform 0.5s ease in out;
+  transition: 0.5s ease-in-out;
 }
 .container header nav ul {
   padding: 0;
@@ -119,36 +113,38 @@ body {
   width: 20px;
 }
 .container header .menu {
-  
+  margin-right: -5em;
 }
 .container section.hero {
   color: #020202;
   color: #1a2456;
   color: #fff;
-  font-weight: 700;
   text-align: center;
 }
 .container section.hero h1 {
-  margin-top: 3em;
+  margin-top: 1em;
   font-size: 3.2rem;
+  padding: 0.5em;
   line-height: 3.5rem;
+  font-weight: 500;
 }
 .container section.hero p {
-  font-size: 1.7rem;
-  margin-top: 0.9em;
+  font-size: 1.4rem;
+  margin-top: 2px;
+  font-weight: 300;
 }
 .container section.hero .arrow {
-  margin-top: 4em;
+  margin-top: 2em;
 }
 .container section.hero .arrow img {
-  width: 35px;
+  width: 45px;
 }
 .container section.console {
   margin-right: 30px;
   padding-bottom: 20px;
   padding: 0.8em;
   color: #1a2456;
-  margin-top: 7em;
+  margin-top: 2em;
 }
 .container section.console .div {
   display: flex;
@@ -426,6 +422,8 @@ footer .copyright img {
   .container section.hero h1 {
     font-size: 3rem;
     line-height: 3.3rem;
+    margin-top: 3.5em;
+    letter-spacing: 2.5px;
   }
   .container section.hero .arrow img {
     margin-top: 17em;
@@ -453,6 +451,9 @@ footer .copyright img {
   }
   .container .final .div .console-container .text {
     margin-left: 20em;
+  }
+  footer {
+    margin-top: 5em;
   }
   footer .none {
     display: block;
