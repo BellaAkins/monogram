@@ -123,7 +123,7 @@ body {
   text-align: center;
 }
 .container section.hero h1 {
-  margin-top: 0.8em;
+  margin-top: 0.4em;
   font-size: 3.2rem;
   padding: 0.5em;
   line-height: 3.5rem;
@@ -135,10 +135,10 @@ body {
   font-weight: 300;
 }
 .container section.hero .arrow {
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 .container section.hero .arrow img {
-  width: 45px;
+  width: 35px;
 }
 .container section.console {
   margin-right: 30px;
@@ -169,7 +169,7 @@ body {
   position: absolute;
   z-index: 1;
   right: 0;
-  right: 17px;
+  right: 27px;
   width: 22%;
 }
 .container section.console .console-container .text h3 {
