@@ -84,10 +84,9 @@ body {
 }
 .container header nav {
   display: none;
-  padding: 2em;
   position: absolute;
   background: #1a2456;
-  width: 50%;
+  width: 60%;
   top: 0;
   left: 0;
   height: 100vh;
