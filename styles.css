@@ -296,6 +296,7 @@ footer .footer-container .none .email-box input {
   width: 50%;
   background: transparent;
   border: 2px solid #efc2b3;
+  color: #fff;
 }
 footer .footer-container .first .email-box input::-moz-placeholder,
 footer .footer-container .none .email-box input::-moz-placeholder {
