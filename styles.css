@@ -146,6 +146,7 @@ body {
 .container section.console .div {
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 .container section.console .console-container {
   margin-left: 20px;
